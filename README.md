@@ -38,9 +38,10 @@ Iron value calculation : pish pish (XX)/3910 = 195.5
 Execution Steps:
 ===============
 
-1. Download the code run maven:clean, maven:install
-
-2. Run com.virtusa.codetest.MerchantGuideToGalaxyApp  as java application.
+1. Download the code zip
+2. Import as maven project into eclipse
+3. run maven:clean, maven:install
+4. Run com.virtusa.codetest.MerchantGuideToGalaxyApp  as java application.
 
 3. Output put can be seen in Console.
 
