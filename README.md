@@ -6,8 +6,7 @@ Explanation :
 =============
 
 Package com.virtusa.codetest contains class MerchantGuideToGalaxyApp that is main class containing the main method. 
-
-      - This class is the point of entry into the application. This class takes the input file name as argument, parse the file and read all the valid lines into an ArrayList i.e input Arraylist.
+This class is the point of entry into the application. This class takes the input file name as argument, parse the file and read all the valid lines into an ArrayList i.e input Arraylist.
 
 Package com.guide.merchant.commandparser contains InputDataParser class, which takes the ArrayList of input lines and returns an ArrayList of Commands that need to be executed, after decoding string of each line using getCommandsFromFile() method.
 
@@ -39,7 +38,11 @@ Iron value calculation : pish pish (XX)/3910 = 195.5
 Execution Steps:
 ===============
 
-1. Download the code and maven
+1. Download the code run maven:clean, maven:install
+
+2. Run com.virtusa.codetest.MerchantGuideToGalaxyApp  as java application.
+
+3. Output put can be seen in Console.
 
   
 
